@@ -1,16 +1,24 @@
 <h1 class="title">{{site.skills_title}}</h1>
 
 <div id="skills">
-  <input type="radio" id="all" name="filter" checked />
-  <label class="filter-button neumorphism-button" for="all">All</label>
+  <!--<input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label> -->
   <input type="radio" id="language" name="filter" />
-  <label class="filter-button neumorphism-button" for="language">Languages</label>
+  <label class="filter-button neumorphism-button" for="language">Yehia</label>
   <input type="radio" id="framework" name="filter" />
-  <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
+  <label class="filter-button neumorphism-button" for="framework">Julio</label>
   <input type="radio" id="tool" name="filter" />
-  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+  <label class="filter-button neumorphism-button" for="tool">Francisco</label>
+  
 
-  {% for language in site.data.skills-languages %}
+     <div skill-type="language" skill-weight="5" data-aos="zoom-in">
+       <img src ="assets/img/Yehia.png" alt = "Yehia" width = "350" height = "400">
+       </div>
+
+      <div skill-type="language" skill-weight="2" data-aos="zoom-in"><br><br>Yehia Elzoridy is the acting president for the 2022-23 school year. <br><br>A dedicated student, Yehia was a natural fit for the position. Yehia <br><br>is currently employed as a tutor for the computer Science lab.
+      </div>
+
+  <!-- {% for language in site.data.skills-languages %}
     <div skill-type="language" skill-weight="{{language.weight}}" data-aos="zoom-in">
       {{language.name}}
     </div>
@@ -25,4 +33,4 @@
       {{tool.name}}
     </div>
   {% endfor %}
-</div>
+</div> -->
